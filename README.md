@@ -5,6 +5,7 @@ first need to create virtual environment
  python -m venv wenv
  wenv/Scripts/activate
  python -m pip install --upgrade pip
- cs stone-appeal
+ cd stone-appeal
+ pip install -U django-jazzmin   #used for admin template
  pip install -r  requirements.txt
  python manage.py runserver 
